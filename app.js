@@ -9,17 +9,13 @@ mailchimp.setConfig({
 });
 
 //Function run which check conecction to API
- 
+
 // async function run(){
 //   const response = await mailchimp.ping.get();
 //   console.log(response);
 // };
 
 // run();
-
-
-
-
 
 const app = express();
 app.use(bodyParser.urlencoded({
